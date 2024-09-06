@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrazyOnNails</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="header-title">CrazyOnNails</h1>
+            <nav>
+                <a href="#home" id="home-link">Главная</a>
+                <a href="#about" id="about-link">О нас</a>
+                <a href="#services" id="services-link">Услуги</a>
+                <a href="#team" id="team-link">Наша команда</a>
+                <a href="#appointment" id="appointment-link">Записаться на прием</a>
+                <a href="#contact" id="contact-link">Контакты</a>
+            </nav>
+            <div class="language-selector">
+                <button data-lang="ru">RU</button>
+                <button data-lang="en">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2 id="home-title">Добро пожаловать в CrazyOnNails</h2>
+                <p id="home-text">Ваш премиум-отель для ухода за ногтями и косметических процедур. Исследуйте наши услуги и познакомьтесь с нашими талантливыми мастерами ногтевого сервиса.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 id="about-title">О нас</h2>
+                <p id="about-text">В CrazyOnNails мы гордимся тем, что предоставляем исключительные услуги по уходу за ногтями. Наш салон предлагает широкий спектр процедур, от классического маникюра до последних тенденций в искусстве ногтей. Наша цель - сделать так, чтобы вы ушли, чувствуя себя побалованным и красивым.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2 id="services-title">Наши услуги</h2>
+                <ul id="services-list">
+                    <li>Маникюр</li>
+                    <li>Педикюр</li>
+                    <li>Искусство ногтей</li>
+                    <li>Гель-лаки</li>
+                    <li>Шеллак</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="team">
+            <div class="container">
+                <h2 id="team-title">Наша команда</h2>
+                <div class="team-member">
+                    <h3 id="team-member1-name">Тахмина Шарипова</h3>
+                    <p id="team-member1-role">Эксперт по искусству ногтей и гель-лакам.</p>
+                </div>
+                <div class="team-member">
+                    <h3 id="team-member2-name">Елена Петровна</h3>
+                    <p id="team-member2-role">Специалист по маникюру и педикюру.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="appointment">
+            <div class="container">
+                <h2 id="appointment-title">Записаться на прием</h2>
+                <form action="#" method="post">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="procedure">Процедура:</label>
+                    <select id="procedure" name="procedure" required>
+                        <option value="manicure">Маникюр</option>
+                        <option value="pedicure">Педикюр</option>
+                        <option value="nail-art">Искусство ногтей</option>
+                        <option value="gel-nails">Гель-лаки</option>
+                        <option value="shellac">Шеллак</option>
+                    </select>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 id="contact-title">Контакты</h2>
+                <p id="contact-text">Не стесняйтесь обращаться к нам с любыми вопросами или запросами.</p>
+                <p>Email: <a href="mailto:info@crazyonnails.com">info@crazyonnails.com</a></p>
+                <p>Телефон: +7 985 514 87 87</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 CrazyOnNails. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
